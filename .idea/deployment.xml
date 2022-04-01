@@ -5,14 +5,14 @@
       <paths name="lsm@c416.ilisa.team:2100">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/home/pythonProjects/AI_web" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
       <paths name="lsm@new.ilisa.team:2000">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/home/pythonProject/AI_web" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
