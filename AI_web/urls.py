@@ -16,6 +16,17 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from django.http import HttpResponse
+from django.conf.urls.static import static
+from django.conf import settings
+from django.shortcuts import render
+
+
+def index(request):  # 视图函数
+    return render(request, 'index.html')
+
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', index),  # ‘’代表127.0.0.1:8000的url,index和视图函数的def index(request):中的index保持一致
 ]
